@@ -1,0 +1,31 @@
+{
+  "name": "firestore-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@firebase/app": "0.3.3",
+    "@firebase/firestore": "0.7.0",
+    "antd": "3.8.2",
+    "hypereact": "1.0.2",
+    "immhelper": "1.0.36",
+    "moment": "2.22.2",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4",
+    "reselect": "3.0.1",
+    "sha1": "1.1.1",
+    "styled-components": "3.4.2",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "1.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
